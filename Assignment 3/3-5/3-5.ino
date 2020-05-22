@@ -9,7 +9,6 @@ void setup() {
 int y =0;
 void loop() 
 {
-    
   if (digitalRead(2) == 0) 
   {
        for (x=3; x<=13; x++) {
@@ -28,5 +27,4 @@ void loop()
       Serial.println(y);
     }
   }
-  
 }
